@@ -3,6 +3,26 @@
     src: url(./Assets/Norse-Bold.otf);
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-family: 'Norse Logo', sans-serif;
+}
+.sidebar {
+    background-color: aqua;
+    width: 34%;
+}
+
+.form-side {
+    background-color: brown;
+    width: 66%;
+}
+
+.wrapper {
+    display: flex;
+    padding: none;
+    margin: none;
 }
