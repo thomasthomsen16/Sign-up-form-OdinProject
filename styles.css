@@ -15,16 +15,29 @@ h1 {
     font-family: 'Norse Logo', sans-serif;
 }
 .sidebar {
-    background-color: aqua;
+    background-image: url(./Assets/Background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 34%;
+    height: 100%;
+
 }
 
 .form-side {
     background-color: brown;
     width: 66%;
+    display: flex;
 }
 
 .wrapper {
     display: flex;
     width: 66%;
+    height: 100vh;
+}
+
+.form-heading, .main-form, .create-account {
+    width: 100‰;
+    height: 150px;
+    background-color: aqua;
 }
