@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Norse Logo";
+    src: url(./Assets/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: 'Norse Logo', sans-serif;
+}
