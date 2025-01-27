@@ -19,6 +19,7 @@ h1 {
     padding-top: 28px;
     margin: 0px;
     width: auto;
+    line-height: 0;
 }
 .sidebar {
     background-image: url(./Assets/Background.jpg);
@@ -41,7 +42,7 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.40);
-    margin-top: 226px;
+    margin-top: 235px;
 }
 
 .logo-content {
@@ -49,6 +50,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .wrapper {
