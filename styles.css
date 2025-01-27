@@ -69,13 +69,37 @@ h1 {
     flex-direction: column;
 }
 
-.main-form {
-
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.create-account {
-
+.main-form div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;  
 }
+.main-form label {
+    font-size: 14px;
+    margin-bottom: 5px; 
+}
+
+.main-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ input:focus {
+    border: blue solid 1px;
+    box-shadow: 0 8px 8px -4px black;
+ }
+
+ input:invalid {
+    border: red solid 1px;
+ }
 
 .button {
     margin-top: 30px;
